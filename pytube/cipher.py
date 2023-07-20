@@ -162,6 +162,7 @@ def get_initial_function_name(js: str) -> str:
 
     raise RegexMatchError(
         caller="get_initial_function_name", pattern="multiple"
+    )
 
 
 def get_transform_plan(js: str) -> List[str]:
